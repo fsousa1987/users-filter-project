@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: red;
+}
+
+.left-container {
+  background-color: green;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* Organiza as divs filhas verticalmente */
+}
+
+.top-div {
+  background-color: aqua;
+  flex-grow: 1;
+  /* Preenche todo o espaço disponível */
+}
+
+.main-left-div {
+  background-color: brown;
+  height: 80%;
+  /* Ocupa 80% da altura do seu conteiner pai */
+}
+
+.right-div {
+  background-color: orange;
+  width: 30%;
+  max-height: 100vh;
+}
