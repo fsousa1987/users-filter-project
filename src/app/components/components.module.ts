@@ -5,11 +5,13 @@ import {FilterComponent} from './filter/filter.component';
 import {FormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {MatButton} from '@angular/material/button';
+import { UsersListComponent } from './users-list/users-list.component';
 
 @NgModule({
   declarations: [
     UserDetailsComponent,
-    FilterComponent
+    FilterComponent,
+    UsersListComponent
   ],
   imports: [
     AngularMaterialModule,
@@ -19,7 +21,8 @@ import {MatButton} from '@angular/material/button';
   ],
   exports: [
     UserDetailsComponent,
-    FilterComponent
+    FilterComponent,
+    UsersListComponent
   ]
 })
 export class ComponentsModule {
