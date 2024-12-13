@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
+@use '@angular/material' as mat;
+
+@include mat.all-component-typographies();
+@include mat.core(); // Inclui tipografia e configurações básicas
+
+@import "./styles/utils/text-align-center";
+
 * {
   margin: 0;
   padding: 0;
