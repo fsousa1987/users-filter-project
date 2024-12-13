@@ -4,8 +4,8 @@ import {UserDetailsComponent} from './user-details/user-details.component';
 import {FilterComponent} from './filter/filter.component';
 import {FormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
-import {MatButton} from '@angular/material/button';
-import { UsersListComponent } from './users-list/users-list.component';
+import {UsersListComponent} from './users-list/users-list.component';
+import {PipesModule} from '../pipes/pipes.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { UsersListComponent } from './users-list/users-list.component';
     AngularMaterialModule,
     CommonModule,
     FormsModule,
-    MatButton
+    PipesModule
   ],
   exports: [
     UserDetailsComponent,
